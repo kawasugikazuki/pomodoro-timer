@@ -12,7 +12,7 @@ RUN npm install
 COPY . .
 
 # 開発サーバーのポートを解放
-EXPOSE 3000
+EXPOSE 5173
 
 # アプリ起動（開発モード）
 CMD ["npm", "start"]
